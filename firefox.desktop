@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox
+Comment=Excel Web with Firefox
+NoDisplay=false
+Exec=bash /home/pi/excel_autostart/script_start_firefox.sh
