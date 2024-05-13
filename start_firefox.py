@@ -51,7 +51,12 @@ WebDriverWait(driver, max_timeout).until(EC.element_to_be_clickable(STAYLOGGEDIN
 # WebDriverWait(driver, max_timeout).until(EC.element_to_be_clickable(AUTOMATIC_HIDE)).click()
 
 # Warte darauf, dass die Seite vollständig geladen ist
-time.sleep(5)  # Wartezeit in Sekunden (kann je nach Internetverbindung variieren)
+time.sleep(120)  # Wartezeit in Sekunden (kann je nach Internetverbindung variieren)
+
+while True:
+    action.send_keys(Keys.HOME).perform()
+    action.key_down(Keys.CONTROL).send_keys(Keys.ARROW_UP).key_up(Keys.CONTROL).perform()
+    time.sleep(5*60*60)
 
 # Schließe den Browser
 # driver.quit()
