@@ -19,11 +19,11 @@ cd excel_autostart
     nano config.py
     ```
 
--   In der Datei `firefox.desktop`, ersetzt in der letzten Zeile `pi` durch den Benutzernamen, den du eingerichtet hast (falls du ihn nicht weißt: steht z.B. in der Kommandozeile vor dem @).
+-   In der Datei `firefox.desktop`, ersetze in der letzten Zeile `pi` durch den Benutzernamen, den du eingerichtet hast (falls du ihn nicht weißt: steht z.B. in der Kommandozeile vor dem @).
 
 ## Installation
 Installiere alle notwendigen Bibliotheken mit
 ```bash
 bash install.sh
 ```
-Das Skript kopiert auch die Datei `firefox.desktop` an die richtige Stelle, sodass Firefox automatisch startet.
+Das Skript kopiert auch die Datei `firefox.desktop` an die richtige Stelle, sodass Firefox automatisch startet. Starte den Pi neu und teste, ob der Autostart funktioniert.
