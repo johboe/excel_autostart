@@ -1,5 +1,12 @@
 # Excel Autostart
 
+## Altes Autostart-Skript löschen
+
+Das alte Skript im Autostart für Chrome wird nicht mehr benötigt. Mit dem Befehl kannst du es löschen:
+```bash
+sudo rm /etc/xdg/autostart/chromium.desktop
+```
+(Kann sein, dass du die Datei ohne "p" erstellt hast; dann lass es auch im Befehl oben weg)
 
 ## Herunterladen
 
@@ -26,4 +33,4 @@ Installiere alle notwendigen Bibliotheken mit
 ```bash
 bash install.sh
 ```
-Das Skript kopiert auch die Datei `firefox.desktop` an die richtige Stelle, sodass Firefox automatisch startet. Starte den Pi neu und teste, ob der Autostart funktioniert.
+(Wenn ein Fehler wegen fehlender Rechte auftritt, probiere den gleichen Befehl mit `sudo` am Anfang aus). Das Skript kopiert auch die Datei `firefox.desktop` an die richtige Stelle, sodass Firefox automatisch startet. Starte den Pi neu und teste, ob der Autostart funktioniert.

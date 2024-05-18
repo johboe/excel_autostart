@@ -9,3 +9,5 @@ sudo tar -xzvf geckodriver-v0.33.0-linux-aarch64.tar.gz -C /usr/local/bin
 chmod +x /usr/local/bin/geckodriver
 
 sudo cp firefox.desktop /etc/xdg/autostart/firefox.desktop
+
+echo "Finished!"
