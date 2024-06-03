@@ -18,6 +18,7 @@ Dann geht ein neues Fenster und du kannst dem Profil einen Namen geben, am beste
 
 Jetzt musst du nur noch wie beim ersten Mal eine Datei für den Autostart anlegen mit 
 ```bash
+mkdir ~/.config/autostart
 nano ~/.config/autostart/excel-web.desktop
 ```
 und den folgenden Inhalt einfügen:
@@ -39,7 +40,7 @@ sudo apt-get install unclutter
 ```
 Dann musst du mit nano eine Datei öffnen:
 ```bash
-nano /etc/xdg/lxsession/LXDE/autostart
+sudo nano /etc/xdg/lxsession/LXDE/autostart
 ```
 und die folgende Zeile am Ende hinzufügen:
 ```bash
