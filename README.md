@@ -30,7 +30,7 @@ Exec=chromium-browser --profile-directory=excel --start-fullscreen --noerrdialog
 Terminal=false
 Icon=chrome
 ```
-(Falls du das Profil nicht "excel" genannt hast, musst du das hinter `--profile-directory=` `noch anpassen). Wenn du jetzt den Pi neustartest, dich bei Excel einloggst (am besten bei dieser Excel-Seite "Eingeloggt bleiben" auswählen und das Passwort auch in Chrome speichern) und den Zoom richtig einstellst, sollte das beim nächsten Start wieder genauso laden. Da das jetzt auch nicht mehr im Kiosk-Modus gestartet wird, kommst du mit F11 aus dem Vollbild raus.
+(Falls du das Profil nicht "excel" genannt hast, musst du das hinter `--profile-directory=` `noch anpassen. Und *LINK_HIER_EINFUEGEN* musst du natürlich auch mit deinem Excel-Link ersetzen). Wenn du jetzt den Pi neustartest, dich bei Excel einloggst (am besten bei dieser Excel-Seite "Eingeloggt bleiben" auswählen und das Passwort auch in Chrome speichern) und den Zoom richtig einstellst, sollte das beim nächsten Start wieder genauso laden. Da das jetzt auch nicht mehr im Kiosk-Modus gestartet wird, kommst du mit F11 aus dem Vollbild raus.
 
 ## Mauszeiger verstecken
 
